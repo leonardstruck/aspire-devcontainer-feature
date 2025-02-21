@@ -21,7 +21,7 @@ This Feature should work on recent versions of Debian/Ubuntu-based distributions
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | .NET Aspire version. Use 'latest' for the latest supported version, '9.0' for the 9.0 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build. | string | latest |
+| version | .NET Aspire version. Use 'latest' for the latest supported version, '9.1' for the 9.1 version, 'X.Y' or 'X.Y.Z' for a specific version, or 'latest-daily' for the latest unsupported build. | string | latest |
 
 ## Customizations
 
@@ -39,11 +39,11 @@ Installing only the latest .NET Aspire version (the default).
 }
 ```
 
-Installing .NET Aspire version 9.0.
+Installing .NET Aspire version 9.1.
 
 ``` jsonc
 "features": {
-    "ghcr.io/devcontainers/features/dotnetaspire:1": "9.0" // or "" or {}
+    "ghcr.io/devcontainers/features/dotnetaspire:1": "9.1" // or "" or {}
 }
 ```
 
