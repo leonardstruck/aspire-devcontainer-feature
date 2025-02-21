@@ -1,3 +1,5 @@
-# Contributing
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+# .NET Aspire (dotnetaspire)
+
+This repo builds, tests and publishes a devcontainer feature that installs .NET Aspire and if necessary the .NET (dotnet) that it depends on. Options are provided to choose a different version or additional versions.
+See [README.md in the subfolder](src/dotnetaspire/README.md) for more information.
