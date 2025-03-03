@@ -29,7 +29,7 @@ echo "Activating feature '.NET Aspire' version: $VERSION"
 
 
 if [[ $VERSION =~ ^(9\.1\.0)$ ]]; then
-    dotnet new install Aspire.ProjectTemplates::$VERSION
+    dotnet new install --force Aspire.ProjectTemplates::$VERSION
 else
     # https://github.com/dotnet/aspire/blob/main/docs/using-latest-daily.md
     dotnet nuget add source --name dotnet9 https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet9/nuget/v3/index.json
