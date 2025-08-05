@@ -54,7 +54,7 @@ fi
 # Optionally install the Aspire CLI if requested
 if [[ "${INSTALL_CLI,,}" == "true" ]]; then
     echo "Installing Aspire CLI (prerelease)..."
-    dotnet tool install --global aspire.cli --prerelease
+    curl -sSL https://aspire.dev/install.sh | bash
 fi
 
 echo "... done activating feature '.NET Aspire' version: $VERSION"
