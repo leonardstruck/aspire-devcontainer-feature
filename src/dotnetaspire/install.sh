@@ -11,7 +11,7 @@
 set -e
 
 # Set the current latest Aspire version here
-ASPIRE_LATEST_VERSION="9.4.0"
+ASPIRE_LATEST_VERSION="9.5.0"
 
 # default to latest if not specified
 VERSION="${VERSION:-"latest"}"
